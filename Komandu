@@ -1,0 +1,4 @@
+Формирование файлов, производиться в командной строке, находясь в директории
+расположения файлов texi из которых формируются руководства
+texi2any --html --no-split guile.texi -o ../rezultat/guile.html
+texi2any --info --no-split guile.texi -o ../rezultat/guile.info
